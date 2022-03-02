@@ -1,0 +1,27 @@
+.dekstop-side-bar{
+    padding-top: 1em;
+    background-color: black;
+}
+
+.dekstop-side-bar .menu-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu-list .menu-items{
+    display: flex;
+    flex-direction: column;
+    row-gap: .2em;
+    list-style:none ;
+    padding-left: 0;
+    align-items: center;
+}
+
+.menu-items .header{
+    margin-bottom: .8em;
+    color: #72737A;
+    width: 80%;
+}
